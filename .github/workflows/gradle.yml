@@ -61,5 +61,5 @@ jobs:
       run: >
         aws deploy create-deployment --application-name be-6-insuko
         --deployment-config-name CodeDeployDefault.AllAtOnce
-        --deployment-group-name be-0-name-group
+        --deployment-group-name be-6-insuko-group
         --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
